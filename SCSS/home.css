@@ -13,7 +13,7 @@
 }
 .headerImg {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .headerNav {
   display: flex;
@@ -88,14 +88,14 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.home_desc {
+.homeDesc {
   position: relative;
 }
-.home_title {
+.homeTitle {
   font-size: 90px;
   font-weight: bold;
 }
-.home_info {
+.homeInfo {
   font-size: 29px;
   font-weight: bold;
-} /*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */

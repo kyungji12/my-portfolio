@@ -37,19 +37,19 @@ img {
 // home
 .home {
   width: 80%;
-  height: calc(100vh - 2 * $height-wrapper);
+  height: calc(100vh - 2 * variables.$height-wrapper);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  &_desc {
+  &Desc {
     position: relative;
   }
-  &_title {
+  &Title {
     font-size: 90px;
     font-weight: bold;
   }
-  &_info {
+  &Info {
     font-size: 29px;
     font-weight: bold;
   }

@@ -2,7 +2,7 @@
 @use "./variables";
 
 .footer {
-  height: $height-wrapper;
+  height: variables.$height-wrapper;
   &Sns {
     display: flex;
     justify-content: center;

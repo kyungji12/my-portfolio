@@ -1,7 +1,7 @@
 @use "./variables";
 
 .header {
-  height: $height-wrapper;
+  height: variables.$height-wrapper;
   &Items {
     display: flex;
     justify-content: space-between;

@@ -1,1 +1,1 @@
-{"version":3,"sources":["home.scss"],"names":[],"mappings":"AAIA,KACE,wBAAA","file":"home.min.css"}
+{"version":3,"sources":["_footer.scss","home.scss"],"names":[],"mappings":"AAII,WACI,YAAA,CACA,qBAAA,CACA,sBAAA,CACA,kBAAA,CAGJ,YACI,iBAAA,CCRR,KACE,wBAAA","file":"home.min.css"}

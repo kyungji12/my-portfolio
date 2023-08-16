@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.footer {
+
+    &Sns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &Copy {
+        text-align: center;
+    }
+}

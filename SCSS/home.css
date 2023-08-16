@@ -1,3 +1,13 @@
+.footerSns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerCopy {
+  text-align: center;
+}
+
 body {
   background-color: lightblue;
 }/*# sourceMappingURL=home.css.map */

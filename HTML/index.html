@@ -5,16 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../SCSS/home.css" />
     <title>my portfolio</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
-    <div class="home">
-      <div class="home_desc">
-        <p class="home_title">Welcome to my Portfolio.</p>
-        <p class="home_info">
-          My name is Cat & Dog <br />I am a Junior Web Developer
-        </p>
+    <header class="header wrapper">
+      <div class="headerItems">
+        <div class="headerLogo">
+          <h1>
+            <a href="#">
+              <img
+                src="../Image/logo_copy.png"
+                alt="Cat and dog."
+                class="headerImg"
+                width="70px"
+                height="70px"
+              />
+            </a>
+          </h1>
+        </div>
+        <nav>
+          <ul class="headerNav">
+            <li class="headerList is-active">
+              <a href="#" class="headerLink">HOME</a>
+            </li>
+            <li class="headerList">
+              <a href="#" class="headerLink">Portfolio</a>
+            </li>
+            <li class="headerList">
+              <a href="#" class="headerLink">Project</a>
+            </li>
+            <li class="headerList">
+              <a href="#" class="headerLink">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <img src="../Image/cat_dog.png" alt="" />
-    </div>
+    </header>
+    <main>
+      <div class="home">
+        <div class="home_desc">
+          <p class="home_title">Welcome to my Portfolio.</p>
+          <p class="home_info">
+            My name is Cat & Dog <br />I am a Junior Web Developer
+          </p>
+        </div>
+        <img src="../Image/cat_dog.png" alt="" />
+      </div>
+    </main>
+    <footer class="footer wrapper">
+      <div class="footerItems">
+        <ul class="footerSns">
+          <li class="footerList"><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-linkedin"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+        </ul>
+        <div class="footerCopy">
+          <small>&copy;2023</small>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

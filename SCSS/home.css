@@ -2,21 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .headerLogo {
-  width: 10%;
+  flex-shrink: 0;
 }
 .headerImg {
-  width: 100%;
-  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .headerNav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 32px;
-  width: 90%;
+}
+.headerLink {
+  display: block;
+  width: 100%;
+}
+
+.is-active {
+  opacity: 0.7;
 }
 
 .footerSns {
@@ -24,8 +32,10 @@
   justify-content: center;
   align-items: center;
   gap: 32px;
+  margin-top: 16px;
 }
 .footerCopy {
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -38,6 +48,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 li {
   list-style-type: none;
 }
@@ -46,6 +60,14 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: bottom;
+}
+
+.wrapper {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 body {

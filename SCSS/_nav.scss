@@ -3,12 +3,16 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 32px;   
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    &Logo {
+        flex-shrink: 0;
     }
 
     &Img {
-        width: 100%;
-        height: 100%;
+        object-fit: cover;
     }
 
     &Nav {
@@ -18,7 +22,12 @@
         gap: 32px;
     }
 
-    &List {
-        width: calc(100%/4 -32px);
+    &Link {
+        display: block;
+        width: 100%;
     }
+}
+
+.is-active {
+    opacity: .7;
 }

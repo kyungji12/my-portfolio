@@ -1,3 +1,25 @@
 body {
   background-color: lightblue;
 }
+
+// home
+.home {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &_desc {
+    position: relative;
+  }
+  &_title {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+  }
+  &_info {
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+  }
+}

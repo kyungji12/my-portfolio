@@ -1,49 +1,21 @@
 @charset "UTF-8";
+@use "./variables";
 
 .footer {
+  height: $height-wrapper;
+  &Sns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
 
-    &Sns {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-        margin-top: 16px;
-    }
-
-    &Copy {
-        margin-top: 16px;
-        text-align: center;
-    }
+  &Copy {
+    margin-top: 16px;
+    text-align: center;
+  }
 }
 
 .fa-brands {
-    font-size: 32px;
-}
-
-// common
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    opacity: .8;
-}
-
-li {
-    list-style-type: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: bottom;
-}
-
-.wrapper {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    padding-right: 4%;
-    padding-left: 4%;
+  font-size: 32px;
 }

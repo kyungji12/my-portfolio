@@ -1,3 +1,6 @@
+.header {
+  height: 75px;
+}
 .headerItems {
   display: flex;
   justify-content: space-between;
@@ -10,7 +13,7 @@
 }
 .headerImg {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .headerNav {
   display: flex;
@@ -24,15 +27,17 @@
 }
 
 .is-active {
-  opacity: 0.7;
+  color: cadetblue;
 }
 
+.footer {
+  height: 75px;
+}
 .footerSns {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin-top: 16px;
 }
 .footerCopy {
   margin-top: 16px;
@@ -41,6 +46,11 @@
 
 .fa-brands {
   font-size: 32px;
+}
+
+body {
+  background-color: lightblue;
+  color: white;
 }
 
 a {
@@ -70,12 +80,9 @@ img {
   padding-left: 4%;
 }
 
-body {
-  background-color: lightblue;
-}
-
 .home {
   width: 80%;
+  height: calc(100vh - 150px);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -87,10 +94,8 @@ body {
 .home_title {
   font-size: 90px;
   font-weight: bold;
-  color: white;
 }
 .home_info {
   font-size: 29px;
   font-weight: bold;
-  color: white;
-}/*# sourceMappingURL=home.css.map */
+} /*# sourceMappingURL=home.css.map */

@@ -1,33 +1,36 @@
+@use "./variables";
+
 .header {
-    &Items {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
+  height: $height-wrapper;
+  &Items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 
-    &Logo {
-        flex-shrink: 0;
-    }
+  &Logo {
+    flex-shrink: 0;
+  }
 
-    &Img {
-        object-fit: cover;
-    }
+  &Img {
+    object-fit: cover;
+  }
 
-    &Nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 32px;
-    }
+  &Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+  }
 
-    &Link {
-        display: block;
-        width: 100%;
-    }
+  &Link {
+    display: block;
+    width: 100%;
+  }
 }
 
 .is-active {
-    opacity: .7;
+  color: cadetblue;
 }
